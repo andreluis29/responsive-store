@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;}
+
+header {
+  background-color: #0093f5;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+main img {
+  margin-top: 24px;
+  width: 500px;
+}
+
+section h2 {
+  color: #376b83;
+  border-bottom: 4px solid #376b83;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.sobre-loja p {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+section div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section div.container img {
+  height: 200px;
+  width: 150px;
+}
+
+section div.container div {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+section div.container div h3 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #0093f5;
+  color: #fff;
+  height: 50px;
+}
+
+@media screen and (min-width: 641px) {
+  section h2 {
+    font-size: 32px;
+  }
+
+  section div.container img {
+    height: 300px;
+    width: 300px;
+  }
+
+  section div.container div h3 {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .sobre-loja {
+    width: 40%;
+    margin-left: 24px;
+  }
+  section .produtos {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
